@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DeadEnemy : MonoBehaviour
 {
+
+    public Material _mat;
+
     private void Start()
     {
         Invoke("SafetyCatch", 5);

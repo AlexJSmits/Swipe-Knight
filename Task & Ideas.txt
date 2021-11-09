@@ -1,0 +1,8 @@
+Task
+- Need to make swipe hitbox and enemies slightly bigger 
+- Reduce mass / gravity and y force on enemies to create more floaty feel
+- give trail renderer more verticies to make it smoother and bendier
+
+Ideas
+- if enemies collide before they have been defeated they combine to create a super enemy with more health (Slime Bat)
+- Boss's have a small shield they move around that temporarily stops your swipe from working if you hit it (1 second)

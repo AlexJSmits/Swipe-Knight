@@ -28,5 +28,18 @@ public class Swipe : MonoBehaviour
             _swipeGO.SetActive(false);
         }
 
+
+        //touch controls 
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            _swipeGO.transform.position = Camera.main.ScreenToWorldPoint(touch.position);
+            _swipeGO.SetActive(true);
+        }
+        else if (Input.touchCount == 0)
+        {
+            _swipeGO.SetActive(false);
+        }
+
     }
 }
