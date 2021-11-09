@@ -6,7 +6,6 @@ public class Swipe : MonoBehaviour
 {
 
     public GameObject _swipeGO;
-    private Rigidbody _swipeRB;
 
     void Start()
     {
@@ -29,13 +28,5 @@ public class Swipe : MonoBehaviour
             _swipeGO.SetActive(false);
         }
 
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Enemy") /*&& _swipeRB.velocity.sqrMagnitude >= 0.1f*/)
-        {
-            collision.gameObject.GetComponent<Enemy>().Death();
-        }
     }
 }

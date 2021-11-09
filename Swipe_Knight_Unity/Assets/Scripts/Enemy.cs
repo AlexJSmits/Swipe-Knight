@@ -23,4 +23,12 @@ public class Enemy : MonoBehaviour
     {
         Destroy(this.gameObject);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Blade"))
+        {
+            Death();
+        }
+    }
 }

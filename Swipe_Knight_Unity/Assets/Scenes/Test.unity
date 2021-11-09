@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 1893635392}
   m_Layer: 0
   m_Name: Swipe_HitBox
-  m_TagString: Untagged
+  m_TagString: Blade
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
